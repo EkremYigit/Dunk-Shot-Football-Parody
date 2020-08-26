@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\uncosoft\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\uncosoft\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_NewProjectForDunkGame.345891460.00" t="ExcludeRecursive" />
+    <e p="C:\Users\uncosoft\Desktop\NewProjectForDunkGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="DragLine.cs" t="Include" />
+        <e p="DrawLine.cs" t="Include" />
+        <e p="NetNew.cs" t="Include" />
+        <e p="NetScripter.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AnimationCheck.cs" t="Include" />
+          <e p="BackgroundController.cs" t="Include" />
+          <e p="BasketScript.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
+          <e p="CoinScript.cs" t="Include" />
+          <e p="DragAndThrow.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="GameOverCheck.cs" t="Include" />
+          <e p="Lv1Script.cs" t="Include" />
+          <e p="Lv2Script.cs" t="Include" />
+          <e p="Lv3Script.cs" t="Include" />
+          <e p="Lv4Script.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="PlankScript.cs" t="Include" />
+          <e p="PlayerScript.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NewProjectForDunkGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3367332098047404248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3367332098047404254}
+  - component: {fileID: 3367332098047404255}
+  - component: {fileID: 8366394861281012054}
+  - component: {fileID: 8451371617530599566}
+  - component: {fileID: 4647020251751412202}
+  - component: {fileID: 6761626412418154421}
+  m_Layer: 0
+  m_Name: GamePlayManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3367332098047404254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367332098047404248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.93, y: -1.77, z: 0.08690229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3367332098047404255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367332098047404248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07227c922991bbb4595da79a63f599c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Manager: {fileID: 8366394861281012054}
+  panel: {fileID: 0}
+  Player: {fileID: 0}
+  PlayerAnim: {fileID: 0}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  ProjecTileParent: {fileID: 0}
+  GoalPostBlockers: {fileID: 0}
+  backGroundTemplate: {fileID: 8426713839887075597, guid: f0dcc21c007351c409e24c1f8684b418,
+    type: 3}
+--- !u!114 &8366394861281012054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367332098047404248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 993a151356a44a83b6fb1d1332491bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 11400000, guid: c3c1edcb85e4fba47bc8da20d71e9d9d, type: 2}
+  mapManager: {fileID: 11400000, guid: 20b0523c6e76b244c8df95917a38ea81, type: 2}
+  barrierManager: {fileID: 11400000, guid: b9dc87f0b7aa65744ba9fda78939e670, type: 2}
+  designManager: {fileID: 11400000, guid: 7f4da6f799ae4b447aa81c2eb5fb184d, type: 2}
+  playerManager: {fileID: 11400000, guid: f1457701bd832914fb6c42a5c4380125, type: 2}
+  backgroundManager: {fileID: 11400000, guid: 3e27bef58e16a8343985d444d5fb810e, type: 2}
+  objectAnimationManager: {fileID: 11400000, guid: 76e565bb1db86d04e842dd3c01453655,
+    type: 2}
+  objectAnimationManager2: {fileID: 11400000, guid: 9aee45d97c103404e85f9f79bcdf9002,
+    type: 2}
+  objectAnimationManager3: {fileID: 11400000, guid: 2e4f7d52ccf50b740861bed926acd944,
+    type: 2}
+  objectAnimationManager4: {fileID: 11400000, guid: eeed28aee36f93e4aa5678fbe2b46263,
+    type: 2}
+  projectiles: {fileID: 11400000, guid: 6febf6d39b92fcb428d726e5fb1c85e8, type: 2}
+  airPlane: {fileID: 0}
+  goalPostBlocker: {fileID: 0}
+--- !u!114 &8451371617530599566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367332098047404248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3c3355c86422e4290ac17dc507090a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4647020251751412202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367332098047404248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2436e5df202eae458e9dce3447a830e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6761626412418154421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367332098047404248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b4962d2ed4f7644b72e78610bba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

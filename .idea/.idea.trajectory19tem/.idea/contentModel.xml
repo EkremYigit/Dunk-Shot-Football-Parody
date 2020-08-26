@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\uncosoft\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\uncosoft\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_trajectory19tem.2048639038.00" t="ExcludeRecursive" />
+    <e p="C:\Users\uncosoft\Desktop\trajectory19tem" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="ammoController.cs" t="Include" />
+          <e p="BackgroundController.cs" t="Include" />
+          <e p="BackgroundManager.cs" t="Include" />
+          <e p="BackwardPole.cs" t="Include" />
+          <e p="BallMovementManager.cs" t="Include" />
+          <e p="BarrierController.cs" t="Include" />
+          <e p="BarrierManager.cs" t="Include" />
+          <e p="BasketScripts" t="Include">
+            <e p="Lv1Script.cs" t="Include" />
+            <e p="Lv2Script.cs" t="Include" />
+            <e p="Lv3Script.cs" t="Include" />
+            <e p="Lv4Script.cs" t="Include" />
+          </e>
+          <e p="CameraController.cs" t="Include" />
+          <e p="Designs.cs" t="Include" />
+          <e p="DragAndThrow.cs" t="Include" />
+          <e p="EnterBallAnim.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="GameOverCheck.cs" t="Include" />
+          <e p="GeneralManager.cs" t="Include" />
+          <e p="GoalPost.cs" t="Include" />
+          <e p="GoalPostController.cs" t="Include" />
+          <e p="Gradienter.cs" t="Include" />
+          <e p="LevelManager.cs" t="Include" />
+          <e p="Lv1Barrier.cs" t="Include" />
+          <e p="Lv2Barrier.cs" t="Include" />
+          <e p="Lv3Barrier.cs" t="Include" />
+          <e p="MapManager.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="ObjectAnimation.cs" t="Include" />
+          <e p="PerfectEffectScript.cs" t="Include" />
+          <e p="PerfectHitScript.cs" t="Include" />
+          <e p="PerfectPointScript.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerManager.cs" t="Include" />
+          <e p="ProjectileScript.cs" t="Include" />
+          <e p="SidePoles.cs" t="Include" />
+          <e p="TrajectoryManager.cs" t="Include" />
+          <e p="trajectoryScript.cs" t="Include" />
+          <e p="WallController.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Ultimate 2D Trajectory Predictor" t="Include">
+          <e p="MaskScript.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="trajectory19tem.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
